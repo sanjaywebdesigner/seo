@@ -1,0 +1,8 @@
+RewriteEngine on
+rewritecond %{http_host} ^digitalmarketingstartup.co.in [nc]
+rewriterule ^(.*)$ http://www.digitalmarketingstartup.co.in/$1 [r=301,nc]
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+RewriteRule ^index\.php$ / [R=301,L]
+RewriteRule ^(.*)/index\.php$ /$1/ [R=301,L]
+ErrorDocument 404 /404.php
