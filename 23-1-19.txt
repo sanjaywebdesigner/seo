@@ -1,0 +1,26 @@
+w3c validator
+
+alt tag
+a tag broken
+title tag
+tag not closed
+double closed
+html rules   no table,<!doctype html>
+<html language="en"> 
+<script src=""></script>   1
+<script language="javascript" src=""></script> 2
+<script type="text/javascript" src=""></script> 3
+<script>
+</script>    4 types
+<link href="" rel="stylesheet">
+
+
+broad match(chance of added words in between)
+exact match(match exactly)
+phrase match(word could be added in the start or in the end)
+
+Do follow no follow
+
+1) reddit
+folked
+plurk
